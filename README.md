@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+# Animal Information Search Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Demo: [site-demo](https://faker-search-paula-nader.netlify.app/) 
 
-Currently, two official plugins are available:
+This project is primarily built using the React.js framework and employs the Faker library for generating fake animal data. It is a website designed for searching and displaying information about various animals. It provides users with a user-friendly interface to search for animal-related information, view search results, and access detailed information about specific animals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
 
-## Expanding the ESLint configuration
+   1. Framework - React.js
+   2. Faker
+   3. Typescript
+   4. Bootstrap + styled-components
+   5. Unit test - jest
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Usage
 
-- Configure the top-level `parserOptions` property like this:
+Follow the instructions below to clone and run the project on your local machine:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Prerequisites
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Node.js installed on your computer. You can download it from nodejs.org.
+
+### Cloning and Running the Project
+
+   1. Clone the GitHub repository to your local machine:
+      `git clone [https://github.com/paulanader/agile-content.git](https://github.com/paulanader/agile-content.git)`
+
+   2. Install project dependencies using npm or yarn
+
+      `npm install` or `yarn`
+
+   3. Start the development server:
+
+      `yarn dev`
+
+   4. To run all unit tests, use the following command:
+      
+      `yarn test` or `yarn test src/path-to-your-test-file.test.js`
+
+   5. To generate a test coverage report for your project, use the following command:
+
+      `yarn test --coverage --collectCoverageFrom='src/**/*.tsx'`
