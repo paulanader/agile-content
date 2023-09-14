@@ -19,6 +19,7 @@ export const GoogleSearchResult: React.FC<GoogleSearchResultProps> = ({
       <ButtonTitle
         onClick={() => handleSelectAnimal(animalInfo)}
         className="d-flex"
+        variant="link"
         data-testid="select-animal-detail-button"
       >
         {animalInfo?.title}

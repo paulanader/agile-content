@@ -13,9 +13,9 @@ export const InputContainer = styled(InputGroup)`
 `;
 
 export const SearchIcon = styled(FaSearch)`
-  color: ${(props) => props.theme["gray-200"]};
+  color: ${(props) => props.theme["gray-400"]};
 `;
 
 export const CloseIcon = styled(IoMdClose)`
-  color: ${(props) => props.theme["gray-200"]};
+  color: ${(props) => props.theme["gray-400"]};
 `;

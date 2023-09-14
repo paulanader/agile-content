@@ -11,18 +11,18 @@ export const LogoGoogleImage = styled.img`
 `;
 
 export const SearchButton = styled(Button)`
-  background-color: ${(props) => props.theme["gray-200"]};
-  border: ${(props) => props.theme["gray-200"]};
+  background-color: ${(props) => props.theme["gray-100"]};
+  border: ${(props) => props.theme["gray-100"]};
   color: ${(props) => props.theme["gray-500"]};
 
   &:hover {
-    background-color: ${(props) => props.theme["gray-200"]};
-    border: ${(props) => props.theme["gray-200"]};
+    background-color: ${(props) => props.theme["gray-100"]};
+    border: ${(props) => props.theme["gray-100"]};
     color: ${(props) => props.theme["gray-500"]};
   }
 
   &:disabled {
-    background-color: ${(props) => props.theme["gray-200"]};
-    border: ${(props) => props.theme["gray-200"]};
+    background-color: ${(props) => props.theme["gray-100"]};
+    border: ${(props) => props.theme["gray-100"]};
   }
 `;
