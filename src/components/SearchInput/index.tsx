@@ -14,7 +14,7 @@ export const SearchInput: React.FC<SearchInputProps> = ({
 }) => {
   return (
     <InputContainer
-      className="d-flex align-items-center  px-3"
+      className="d-flex align-items-center ps-3 pe-2"
       data-testid="search-input-container"
     >
       <SearchIcon />
@@ -29,6 +29,7 @@ export const SearchInput: React.FC<SearchInputProps> = ({
       {searchValue !== "" && (
         <Button
           variant="link"
+          className="d-flex align-items-center justify-content-end px-0"
           onClick={handleCleanSearch}
           data-testid="search-input-close-button"
         >
